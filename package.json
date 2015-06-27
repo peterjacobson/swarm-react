@@ -11,7 +11,12 @@
   },
   "browserify": {
     "transform": [
-      ["reactify", {"es6": true}]
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
     ]
   },
   "gh-pages-deploy": {
@@ -29,6 +34,7 @@
   },
   "homepage": "https://github.com/peterjacobson/swarm",
   "dependencies": {
+    "jquery": "^2.1.4",
     "react": "^0.13.3",
     "reactify": "^1.1.1"
   },

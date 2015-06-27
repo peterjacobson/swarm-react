@@ -1,31 +1,29 @@
-var React = require('react')
-var imgStyle = {
-	width: '30%'
-};
+var $ = require('jquery');
+var React = require('react');
+var Textarea = require('react-textarea-autosize');
+
 var textareaStyle = {
 	border: 'none',
 	resize: 'none'
 }
- 
-var Textarea = require('react-textarea-autosize');
 
 module.exports = React.createClass({
-	// componentDidMount: function() {
- //      $(document.body).on('keyup', this.handleKeyUp);
- //  }
-
-  // handleKeyUp: function(e) {
-  // 	console.log(e.keyCode);
-  // }
-
+	getInitalState: function() {
+		return {input: "kkljsdf"};
+	},
+  handleKeyUp: function(e) {
+  	this.setState({input: e.target.value})
+  	console.log(input);
+  },
 	render: function () {
+		var input = this.state.input;
 		return (
-				<div>
-					<Textarea style={textareaStyle} autofocus>
-						Wshsooooo... describe your bug, young one
-					</Textarea>
-					<img style={imgStyle} src="img/691px-Gnu_meditate_levitate.png"></img>
-				</div>
+				<Textarea 
+					// value={input} 
+					// onChange={this.handleKeyUp} 
+					style={textareaStyle} 
+					autofocus>
+				</Textarea>
 			)
 	}
 })
