@@ -1,9 +1,7 @@
 var React = require('react')
-// var textareaStyle = {
-// 	'background-color': rgba(250, 250, 250, 0.5)
-// };
-
-require('babel/polyfill'); // polyfill is required 
+var imgStyle = {
+	width: '30%'
+};
  
 var Textarea = require('react-textarea-autosize');
 
