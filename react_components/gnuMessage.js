@@ -5,7 +5,7 @@ var pStyle = {
 	marginTop: '-28%',
 	fontWeight: '600',
 	width: '43%',
-  left: '9%',
+  left: '11%',
   textAlign: 'right',
   padding: '0 .4em',
   color: '#222',
@@ -16,7 +16,7 @@ module.exports = React.createClass({
 	render: function () {
 		return (
 			<p style={pStyle}>
-				whououo... tell me your troubles...
+				whououo... explain me your difficulty, young gnu...
 			</p>
 		)
 	}
