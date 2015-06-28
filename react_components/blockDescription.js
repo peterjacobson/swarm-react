@@ -4,7 +4,10 @@ var Textarea = require('react-textarea-autosize');
 
 var textareaStyle = {
 	border: 'none',
-	resize: 'none'
+	resize: 'none',
+}
+var divStyle = {
+	display: 'inline',
 }
 
 module.exports = React.createClass({
@@ -18,12 +21,14 @@ module.exports = React.createClass({
 	render: function () {
 		// var input = this.state.input;
 		return (
-				<Textarea 
-					// value={input} 
-					// onChange={this.handleKeyUp} 
-					style={textareaStyle} 
-					autofocus>
-				</Textarea>
+				<div style={divStyle}>
+					<Textarea 
+						// value={input} 
+						// onChange={this.handleKeyUp} 
+						style={textareaStyle} 
+						autofocus>
+					</Textarea>
+				</div>
 			)
 	}
 })

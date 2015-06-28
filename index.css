@@ -18,3 +18,8 @@ main {
   background-size: cover;
   background-position: center;
 }
+
+textarea {
+  font-weight: bolder;
+  padding: 0.2em 1em;
+}

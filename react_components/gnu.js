@@ -1,7 +1,8 @@
 var React = require('react')
 
 var imgStyle = {
-	width: '30%'
+	width: '30%',
+	marginTop: '16%',
 };
 
 module.exports = React.createClass({
