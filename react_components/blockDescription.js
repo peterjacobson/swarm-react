@@ -9,8 +9,12 @@ var textareaStyle = {
 var divStyle = {
 	display: 'inline',
 }
+var focus = false;
 
 module.exports = React.createClass({
+	// componentDidMount: function() {
+	// 	focus = true;
+	// },
 	// getInitalState: function() {
 	// 	return {input: "kkljsdf"};
 	// },
@@ -26,7 +30,7 @@ module.exports = React.createClass({
 						// value={input} 
 						// onChange={this.handleKeyUp} 
 						style={textareaStyle} 
-						autofocus>
+						autoFocus>
 					</Textarea>
 				</div>
 			)

@@ -10,8 +10,8 @@ module.exports = React.createClass({
 	render: function () {
 		return (
 			<div style={divStyle}>
-				<BlockDescription />
 				<Gnu />
+				<BlockDescription />
 				<GnuMessage />
 			</div>
 		)
