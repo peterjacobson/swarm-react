@@ -8,15 +8,15 @@ var textareaStyle = {
 }
 
 module.exports = React.createClass({
-	getInitalState: function() {
-		return {input: "kkljsdf"};
-	},
-  handleKeyUp: function(e) {
-  	this.setState({input: e.target.value})
-  	console.log(input);
-  },
+	// getInitalState: function() {
+	// 	return {input: "kkljsdf"};
+	// },
+ //  handleKeyUp: function(e) {
+ //  	this.setState({input: e.target.value})
+ //  	console.log(input);
+ //  },
 	render: function () {
-		var input = this.state.input;
+		// var input = this.state.input;
 		return (
 				<Textarea 
 					// value={input} 
