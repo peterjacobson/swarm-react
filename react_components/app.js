@@ -1,6 +1,7 @@
 var React = require('react');
 var BlockDescription = require('./blockDescription');
 var Gnu = require('./gnu')
+var GnuMessage = require('./gnuMessage')
 
 module.exports = React.createClass({
 	render: function () {
@@ -8,6 +9,7 @@ module.exports = React.createClass({
 			<div>
 				<BlockDescription />
 				<Gnu />
+				<GnuMessage />
 			</div>
 		)
 	}
