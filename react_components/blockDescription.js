@@ -5,11 +5,11 @@ var Textarea = require('react-textarea-autosize');
 var textareaStyle = {
 	border: 'none',
 	resize: 'none',
+	width: '20em',
 }
 var divStyle = {
-	display: 'inline',
+	// display: 'inline',
 }
-var focus = false;
 
 module.exports = React.createClass({
 	// componentDidMount: function() {

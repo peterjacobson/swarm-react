@@ -1,11 +1,9 @@
 var React = require('react')
 
 var pStyle = {
-	position: 'relative',
-	marginTop: '-28%',
+	marginTop: '5em',
 	fontWeight: '600',
-	width: '43%',
-  left: '46%',
+	width: '20em',
   textAlign: 'left',
   padding: '0 .4em',
   color: '#222',
