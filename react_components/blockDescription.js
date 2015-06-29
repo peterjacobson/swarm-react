@@ -6,6 +6,7 @@ var textareaStyle = {
 	border: 'none',
 	resize: 'none',
 	width: '20em',
+	padding: '0.6em'
 }
 var divStyle = {
 	// display: 'inline',
@@ -18,17 +19,18 @@ module.exports = React.createClass({
 	// getInitalState: function() {
 	// 	return {input: "kkljsdf"};
 	// },
- //  handleKeyUp: function(e) {
- //  	this.setState({input: e.target.value})
- //  	console.log(input);
- //  },
+  handleKeyUp: function(e) {
+  	// this.setState({input: e.target.value})
+  	console.log($(this.getDOMNode()).children()[0].value);
+  	console.log(e.keyCode);
+  },
 	render: function () {
 		// var input = this.state.input;
 		return (
 				<div style={divStyle}>
 					<Textarea 
 						// value={input} 
-						// onChange={this.handleKeyUp} 
+						onChange={this.handleKeyUp} 
 						style={textareaStyle} 
 						autoFocus>
 					</Textarea>

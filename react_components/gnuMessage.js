@@ -3,6 +3,7 @@ var React = require('react')
 var pStyle = {
 	marginTop: '5em',
 	fontWeight: '600',
+	fontSize: 'large',
 	width: '20em',
   textAlign: 'left',
   padding: '0 .4em',
