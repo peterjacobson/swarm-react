@@ -16,7 +16,7 @@ module.exports = React.createClass({
 	render: function () {
 		return (
 			<p style={pStyle}>
-				whououo... explain me your difficulty, young gnu...
+				whououo... what are you trying to do, young gnu?
 			</p>
 		)
 	}
