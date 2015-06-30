@@ -6,7 +6,7 @@ var textareaStyle = {
 	border: 'none',
 	resize: 'none',
 	width: '20em',
-	padding: '0.6em'
+	padding: '0.6em',
 }
 var divStyle = {
 	// display: 'inline',
@@ -21,8 +21,11 @@ module.exports = React.createClass({
 	// },
   handleKeyUp: function(e) {
   	// this.setState({input: e.target.value})
-  	console.log($(this.getDOMNode()).children()[0].value);
-  	console.log(e.keyCode);
+  	var userIntent = $(this.getDOMNode()).children()[0].value
+  	if (userIntent.length > 3) {
+  		console.log('clear')
+  	}
+
   },
 	render: function () {
 		// var input = this.state.input;
