@@ -5,10 +5,8 @@ var View = require('react-flexbox');
 
 // var Box = FlexBox.Box;
 // var Item = FlexBox.Item;
-
-var BlockDescription = require('./blockDescription');
 var Gnu = require('./gnu')
-var GnuMessage = require('./gnuMessage')
+var Form = require('./form')
 
 var divStyle = {
 	position: 'absolute',
@@ -19,10 +17,7 @@ module.exports = React.createClass({
 		return (
 			<div style={divStyle} className="container">
 				<Gnu />
-				<div className="container flex-column">
-					<GnuMessage />
-					<BlockDescription />
-				</div>
+				<Form />
 			</div>
 		)
 	}

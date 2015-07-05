@@ -1,0 +1,1 @@
+var Alt = require('alt')
