@@ -4,7 +4,6 @@ var pStyle = {
 	marginTop: '5em',
 	fontWeight: '600',
 	fontSize: 'large',
-	width: '20em',
   textAlign: 'left',
   padding: '0 .4em',
   color: '#222',
@@ -14,7 +13,10 @@ var pStyle = {
 module.exports = React.createClass({
 	render: function () {
 		return (
-			<p style={pStyle}>
+			<p 
+				id={this.props.id}
+				className={this.props.isCollapsed} 
+				style={pStyle}>
 				whououo... what are you trying to do, young gnu?
 			</p>
 		)

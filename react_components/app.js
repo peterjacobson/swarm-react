@@ -10,6 +10,7 @@ var Form = require('./form')
 
 var divStyle = {
 	position: 'absolute',
+	width: '100%',
 }
 
 module.exports = React.createClass({

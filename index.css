@@ -1,6 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
 }
 
 h1 {
@@ -37,4 +42,8 @@ textarea {
 
 .flex-column {
   flex-direction: column;
+}
+
+.collapsed {
+  display: none;
 }
