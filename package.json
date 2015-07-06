@@ -10,10 +10,7 @@
     "deploy": "gh-pages -d ."
   },
   "browserify": {
-    "transform": [
-      "babelify",
-      ["reactify", { "es6": true }]
-    ]
+    "transform": ["babelify"]
   },
   "repository": {
     "type": "git",

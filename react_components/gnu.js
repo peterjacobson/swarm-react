@@ -1,7 +1,9 @@
 var React = require('react')
 
 var imgStyle = {
-	width: '40%',
+	width: '30%',
+	minWidth: '12em',
+	maxWidth: '15em',
 	height: '100%',
 	paddingTop: '4%',
 	paddingLeft: '4%',

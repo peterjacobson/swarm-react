@@ -1,6 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:'Roboto', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul.toDo li {
+  text-align: center;
 }
 
 h1 {
@@ -28,6 +37,27 @@ textarea {
   padding: 0.2em 1em;
 }
 
+button {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 8px;
+  background: rgba(116, 154, 167, 0.3);
+  border-style: none;
+  color: rgba(126, 37, 37, 1);
+  font-weight: 500;
+  width: auto;
+}
+
+button.done {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 2px;
+  background: rgba(76, 153, 0, 0);
+  color: rgba(0, 128, 0, 0.8);
+  font-weight: 400;
+
+}
+
 .container {
   display: inline-flex;
   height: auto;
@@ -37,4 +67,8 @@ textarea {
 
 .flex-column {
   flex-direction: column;
+}
+
+.collapsed {
+  display: none;
 }
