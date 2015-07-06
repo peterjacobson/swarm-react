@@ -19,6 +19,7 @@ module.exports = React.createClass({
 			<div 
 				className="container flex-column"
 				style={divStyle}>
+				<ToDoList />
 				<GnuMessage
 					id={"aim-help"} isCollapsed={''} />
 				<BlockDescription 
@@ -31,7 +32,6 @@ module.exports = React.createClass({
 					id={"issue-help"} isCollapsed={'collapsed'} />
 				<BlockDescription 
 					id={"issue"} isCollapsed={'collapsed'} next={false} />
-				<ToDoList />
 			</div>
 		)
 	}

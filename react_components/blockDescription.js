@@ -11,6 +11,7 @@ module.exports = React.createClass({
 			border: 'none',
 			resize: 'none',
 			padding: '0.6em',
+			overflow: 'hidden',
 			background: this.props.background,
 		};
 		return (
