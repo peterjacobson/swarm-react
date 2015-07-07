@@ -12,9 +12,11 @@ module.exports = React.createClass({
 			resize: 'none',
 			padding: '0.6em',
 			overflow: 'hidden',
-			background: this.props.background,
+			width: '94.8%',
 		};
 		return (
+			<div>
+				<label for={this.props.id}>{this.props.id}</label>
 				<Textarea 
 					id={this.props.id}
 					className={this.props.isCollapsed}
@@ -25,7 +27,8 @@ module.exports = React.createClass({
 					style={textareaStyle} 
 					autoFocus>
 				</Textarea>
-			)
+			</div>
+		)
 	},
 	getDefaultProps: function() {
     return {

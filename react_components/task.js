@@ -18,6 +18,7 @@ module.exports = React.createClass({
 		}
 	},
 	_onClick: function(e) {
+		// this.props.processProgress.checklistCompleted[]
 		this.setState( { done: !this.state.done } )
 	}
 

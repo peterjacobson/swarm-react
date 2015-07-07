@@ -10,7 +10,9 @@
     "deploy": "gh-pages -d ."
   },
   "browserify": {
-    "transform": ["babelify"]
+    "transform": [
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
   "dependencies": {
     "alt": "^0.16.10",
     "jquery": "^2.1.4",
+    "object-assign": "^3.0.0",
     "react": "^0.13.3",
     "react-flexbox": "^2.0.0",
     "reactify": "^1.1.1"
